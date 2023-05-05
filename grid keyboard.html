@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .maindiv{
+            border: 2px solid black;
+            display: grid;
+            grid-template-areas:'a1 a2 a3 a4 a5 a6 a7 a0 a8 a9 b1 b2 b3 b4' 'b5 b6 b7 b8 b9 c1 c2 c3 c4 c5 c6 c7 c8 c9' 'd1 d2 d3 d4 d5 d6 d7 d8 d9 e1 e2 e3 e4 e4' 'e5 e5 e6 e7 e8 e9 f1 f2 f3 f4 f5 f6 f7 f7' 'f8 f9 g1 g2 g3 g3 g3 g3 g3 g4 g5 g6 g7 g8';
+            gap: 3px;
+            width: 900px;
+            margin-left: 300px;
+            margin-top: 250px;
+            background-color: aqua;
+        }
+        .maindiv>div{
+             border: 2px solid black;
+             text-align: center;
+             color:black;
+             margin-top: 5px;
+             margin-bottom: 5px;
+             border-radius: 5px;
+             margin-left: 2px;
+             margin-right: 2px;
+             color: whitesmoke;
+             background-color: black;
+        }
+     
+   #a1{grid-area: a1;}
+    #a2{grid-area: a2;}
+    #a3{grid-area: a3;}
+    #a4{grid-area: a4;}
+    #a5{grid-area: a5;}
+    #a6{grid-area: a6;}
+    #a7{grid-area: a7;}
+    #a0{grid-area: a0;}
+    #a8{grid-area: a8;}
+    #a9{grid-area: a9;}
+    #b1{grid-area: b1;}
+    #b2{grid-area: b2;}
+    #b3{grid-area: b3;}
+    #b4{grid-area: b4;}
+    #b5{grid-area: b5;}
+    #b6{grid-area: b6;}
+    #b7{grid-area: b7;}
+    #b8{grid-area: b8;}
+    #b9{grid-area: b9;}
+    #c1{grid-area: c1;}
+    #c2{grid-area: c2;}
+    #c3{grid-area: c3;}
+    #c4{grid-area: c4;}
+    #c5{grid-area: c5;}
+    #c6{grid-area: c6;}
+    #c7{grid-area: c7;}
+    #c8{grid-area: c8;}
+    #c9{grid-area: c9;}
+    #d1{grid-area: d1;}
+    #d2{grid-area: d2;}
+    #d3{grid-area: d3;}
+    #d4{grid-area: d4;}
+    #d5{grid-area: d5;}
+    #d6{grid-area: d6;}
+    #d7{grid-area: d7;}
+    #d8{grid-area: d8;}
+    #d9{grid-area: d9;}
+    #e1{grid-area: e1;}
+    #e2{grid-area: e2;}
+    #e3{grid-area: e3;}
+    #e4{grid-area: e4;}
+    #e5{grid-area: e5;}
+    #e6{grid-area: e6;}
+    #e7{grid-area: e7;}
+    #e8{grid-area: e8;}
+    #e9{grid-area: e9;}
+    #f1{grid-area: f1;}
+    #f2{grid-area: f2;}
+    #f3{grid-area: f3;}
+    #f4{grid-area: f4;}
+    #f5{grid-area: f5;}
+    #f6{grid-area: f6;}
+    #f7{grid-area: f7;}
+    #f8{grid-area: f8;}
+    #f9{grid-area: f9;}
+    #g1{grid-area: g1;}
+    #g2{grid-area: g2;}
+    #g3{grid-area: g3;}
+    #g4{grid-area: g4;}
+    #g5{grid-area: g5;}
+    #g6{grid-area: g6;}
+    #g7{grid-area: g7;}
+    #g8{grid-area: g8;}
+    #g9{grid-area: g9;}
+    </style>
+</head>
+<body>
+    <div class="maindiv">
+    <div id="a1">~</div>
+    <div id="a2">1</div>
+    <div id="a3">2</div>
+    <div id="a4">3</div>
+    <div id="a5">4</div>
+    <div id="a6">5</div>
+    <div id="a7">6</div>
+    <div id="a0">7</div>
+    <div id="a8">8</div>
+    <div id="a9">9</div>
+    <div id="b1">0</div>
+    <div id="b2">-</div>
+    <div id="b3">+</div>
+    <div id="b4">Backspace</div>
+    <div id="b5">Tab</div>
+    <div id="b6">Q</div>
+    <div id="b7">w</div>
+    <div id="b8">E</div>
+    <div id="b9">R</div>
+    <div id="c1">T</div>
+    <div id="c2">Y</div>
+    <div id="c3">U</div>
+    <div id="c4">I</div>
+    <div id="c5">O</div>
+    <div id="c6">P</div>
+    <div id="c7">{</div>
+    <div id="c8">}</div>
+    <div id="c9">\</div>
+    <div id="d1">Capslock</div>
+    <div id="d2">A</div>
+    <div id="d3">S</div>
+    <div id="d4">D</div>
+    <div id="d5">F</div>
+    <div id="d6">G</div>
+    <div id="d7">H</div>
+    <div id="d8">J</div>
+    <div id="d9">K</div>
+    <div id="e1">L</div>
+    <div id="e2">;</div>
+    <div id="e3">'</div>
+    <div id="e4">Enter</div>
+    <div id="e5">Shift</div>
+    <div id="e6">Z</div>
+    <div id="e7">X</div>
+    <div id="e8">C</div>
+    <div id="e9">V</div>
+    <div id="f1">B</div>
+    <div id="f2">N</div>
+    <div id="f3">M</div>
+    <div id="f4">,</div>
+    <div id="f5">.</div>
+    <div id="f6">/</div>
+    <div id="f7">Shift</div>
+    <div id="f8">Ctrl</div>
+    <div id="f9">Fn</div>
+    <div id="g1">win</div>
+    <div id="g2">Alt</div>
+    <div id="g3">Space</div>
+    <div id="g4">Alt</div>
+    <div id="g5">Ctrl</div>
+    <div id="g6">Home</div>
+    <div id="g7">pgup</div>
+    <div id="g8">pgdn</div>
+</div>
+</body>
+</html>

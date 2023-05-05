@@ -1,0 +1,31 @@
+body{
+    background-color: cadetblue;
+}
+#love{
+    text-align: center;
+    border: 2px solid black;
+    width: 400px;
+    height: 600px;
+    margin-top: 7%;
+    margin-left: 35%;
+    background-color: white;
+    background: url(background-g2ff54e9d8_1280.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.vicky{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+}
+.suresh{
+    width: 100px;
+    font-size: inherit;
+    border-radius: 10px;
+    background-color: green;
+    color:white;
+}
+.white{
+    color:white;
+    text-decoration: none;
+}

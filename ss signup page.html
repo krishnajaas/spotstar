@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotstar</title>
+    <link rel="stylesheet" href="ss sign css.css">
+    <link rel="icon" href="sslogo.png">
+</head>
+<style>
+    #error{
+        color: red;
+    }
+</style>
+        <script>
+        function signup(){
+            let email=document.getElementById("mail").value;
+            let pass=document.getElementById("password").value;
+            let confirm_password=document.getElementById("confirm").value;
+
+            // Email Validation
+            let flag_mail=false;
+            for(let i=0;i<email.length;i++){
+                if(email[i]=='@'){
+                    flag_mail=true;
+                }
+            }
+            // Password Validation
+            let len=pass.length;
+            let upper=0;
+            let lower=0;
+            let num=0;
+            let special=0;
+            let flag_pass=false;
+            for(let i=0;i<len;i++){
+                if(('A'<=pass[i])&&(pass[i]<='Z')){
+                    upper++;
+                }else if(('a'<=pass[i])&&(pass[i]<='z')){
+                    lower++;
+                }else if(('0'<=pass[i])&&(pass[i]<='9')){
+                    num++;
+                }else{
+                    special++
+                }
+            }
+            if((8<=len)&&(len<=16)&&(upper>=1)&&(lower>=1)&&(num>=1)&&(special>=1)){
+                flag_pass=true;
+            }
+
+            // Confirm Password Validation
+            let flag_confirm=false;
+            if(pass==confirm_password){
+                flag_confirm=true;
+            }
+
+            if(((flag_mail==true)&&(flag_pass==true)&&(flag_confirm==true))){
+                window.location.href="https://www.facebook.com";
+            }else{
+                document.getElementById("error").innerHTML="*Enter valid details";
+            }
+
+
+        }
+    </script>
+<body>
+    <div id="love">
+        <h2>SIGNUP</h2>
+        <img src="sslogo.png" height="100px" width="100px" class="jose"><br>
+        <input type="text" placeholder="USERNAME" class="vicky" required>
+        <br><br>
+        <input type="email" placeholder="EMAIL ID" class="vicky" id="mail" required>
+        <br><br>
+        <input type="password" placeholder="PASSWORD" class="vicky" required id="password"><br><br>
+        <input type="text" placeholder="CONFIRM PASSWORD" class="vicky" id="confirm" required><br><br>
+            <p id="error"></p>
+            <button class="suresh" onclick="signup()">Submit</button>
+            <tr><td><h3>ALREADY HAVE AN ACCOUNT?<h4><a href="login page.html"class="sundar">LOGIN</a></h4></h3></td></tr>
+            <p>or</p>
+            
+                
+                <td><a href="https://accounts.google.com/ServiceLogin/signinchooser?sa&ifkv=AWnogHeVdvsmswfRjCs5RhDbgdQh3r92vZDKP1yGLeQePyIxGRww2ZMk0oUhvJA1mc7bBFfGTweU&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><img src="podagooglr.png" height="60px"></a></td>
+            </tr>
+        </div>   
+</body>
+</html>

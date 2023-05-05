@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>   
+  var behaviour = document.getElementById("behaviour");
+var kentsBehaviour = behaviour.value;
+
+console.log(kentsBehaviour)
+
+//var h3 = document.getElementsByTagName("h3");
+
+function kentsReward (kentsBehaviour) {
+  var prize;
+
+  switch (kentsBehaviour) {
+    case "Really good":
+      prize = "You get foot rubs!";
+      break;
+
+    case "Good":
+      prize = "You get an Oreo";
+      break;
+
+    case "Medium":
+      prize = "You get bread";
+      break;
+
+    case "Not so good":
+      prize = "You don't get anything";
+      break;
+
+    case "Greer":
+      prize = "You get pinches";
+      break;
+
+    default:
+      return "Tell me how you behaved today";
+  }
+}
+</script>  
+  
+<body>   
+  <h1>Please select your behaviour for today:</h1>
+  <select name="behaviour" id="behaviour" onChange="kentsReward()">
+    <option value="default">Select your behaviour</option>
+    <option value="Really good">Really good</option>
+    <option value="Good">Good</option>
+    <option value="Medium">Medium</option>
+    <option value="Not so good">Not so good</option>
+    <option value="Bad">Bad</option>
+    <option value="Greer">Greer</option>
+  </select>  
+</body>  
+</html>  
