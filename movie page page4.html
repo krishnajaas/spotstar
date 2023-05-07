@@ -18,6 +18,9 @@
            gap: -100px;
            
         }
+        img :hover{
+          transform: scale(115);
+        }
         .home{
            color: whitesmoke;
            text-decoration: none;
@@ -91,6 +94,19 @@
        .nav-item{
          margin-left: 80px;
        }
+       .box{
+		width: 150px;
+		height: 200px;
+    margin: 0px 10px;
+    transition: 1s;
+
+	}
+	.box:hover{
+		transform: scale(1.2);
+		z-index: 1;
+		box-shadow: 2px 2px 2px #000;
+		
+	}
    
    </style>
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -157,65 +173,85 @@
         
     </nav>
     <div>
-    <img src="./movie poster/cukoo.jpg" alt="" height="550px" width="100%"><br><br>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./movie poster/cukoo.jpg" alt="" height="550px" width="100%"><br><br>
+          </div>
+          <div class="carousel-item">
+            <img src="./movie poster/bg 2.jpg" alt="" height="550px" width="100%"><br><br>
+          </div>
+          <div class="carousel-item">
+            <img src="./movie poster/cuckoo.jpg" alt="" height="550px" width="100%"><br><br>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     <h1>Because you watched Cuckoo</h1>
     <div class="space">
-    <a href="jersey movie page 5.html"><img src="./movie poster/jersey.jpg" alt="" height="200px" width="150px"></a>
-    <a href=""><img src="./movie poster/ninety.jpg" alt="" height="200px" width="150px"></a>
-    <a href=""><img src="./movie poster/nitham.jpg" alt="" height="200px" width="150px"></a>
-    <a href=""><img src="./movie poster/dada.jpg" alt="" height="200px" width="150px"></a>
-    <a href=""><img src="./movie poster/gargi.jpg" alt="" height="200px" width="150px"></a>
-    <a href=""><img src="./movie poster/sita.jpg" alt="" height="200px" width="150px"></a>
-    <a href=""><img src="./movie poster/kkp.jpg" alt="" height="200px" width="150px"></a>
-    <a href=""><img src="./movie poster/dev.jpg" alt="" height="200px" width="150px"></a>
+    <a href="jersey movie page 5.html" class="box"><img src="./movie poster/jersey.jpg" alt="" height="200px" width="150px"></a>
+    <a href="" class="box"><img src="./movie poster/ninety.jpg" alt="" height="200px" width="150px"></a>
+    <a href="" class="box"><img src="./movie poster/nitham.jpg" alt="" height="200px" width="150px"></a>
+    <a href="" class="box"><img src="./movie poster/dada.jpg" alt="" height="200px" width="150px"></a>
+    <a href="" class="box"><img src="./movie poster/gargi.jpg" alt="" height="200px" width="150px"></a>
+    <a href="" class="box"><img src="./movie poster/sita.jpg" alt="" height="200px" width="150px"></a>
+    <a href="" class="box"><img src="./movie poster/kkp.jpg" alt="" height="200px" width="150px"></a>
+    <a href="" class="box"><img src="./movie poster/dev.jpg" alt="" height="200px" width="150px"></a>
    </div>
    <br>
    <h1>Trending Now</h1>
    <div class="space">
-      <a href=""><img src="./movie poster/love today.jpg" alt="" height="200px" width="150px"></a>
-      <a href=""><img src="./movie poster/Wednesday.jpg" alt="" height="200px" width="150px"></a>
-      <a href=""><img src="./movie poster/Kalyanram.jpeg" alt="" height="200px" width="150px"></a>
-      <a href=""><img src="./movie poster/faraaz.jpg" alt="" height="200px" width="150px"></a>
-      <a href=""><img src="./movie poster/rana.jpg" alt="" height="200px" width="150px"></a>
-      <a href=""><img src="./movie poster/vaathi.jpg" alt="" height="200px" width="150px"></a>
-      <a href=""><img src="./movie poster/thunivu.jpg" alt="" height="200px" width="150px"></a>
-      <a href=""><img src="./movie poster/varisu.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"><img src="./movie poster/love today.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"><img src="./movie poster/Wednesday.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"><img src="./movie poster/Kalyanram.jpeg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"><img src="./movie poster/faraaz.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"><img src="./movie poster/rana.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"><img src="./movie poster/vaathi.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"><img src="./movie poster/thunivu.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"><img src="./movie poster/varisu.jpg" alt="" height="200px" width="150px"></a>
    </div>
    <br>
    <h1 id="link">Familiar Tv Favorites</h1>
    <div class="space">
-      <a href=""><img src="./movie poster/break.jpg" alt="" height="200px" width="150px"></a>
-      <a href=""><img src="./movie poster/lucifer.jpg" alt="" height="200px" width="150px"></a>
-      <a href=""><img src="./movie poster/the 100.jpg" alt="" height="200px" width="150px"></a>
-      <a href=""><img src="./movie poster/squid.jpg" alt="" height="200px" width="150px"></a>
-      <a href=""><img src="./movie poster/money.png" alt="" height="200px" width="150px"></a>
-      <a href=""><img src="./movie poster/sex edu.jpg" alt="" height="200px" width="150px"></a>
-      <a href=""><img src="./movie poster/narcos.jpg" alt="" height="200px" width="150px"></a>
-      <a href=""><img src="./movie poster/dark.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"><img src="./movie poster/break.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"><img src="./movie poster/lucifer.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"><img src="./movie poster/the 100.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"><img src="./movie poster/squid.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"><img src="./movie poster/money.png" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"><img src="./movie poster/sex edu.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"><img src="./movie poster/narcos.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"><img src="./movie poster/dark.jpg" alt="" height="200px" width="150px"></a>
    </div>
    <br>
    <h1>My List</h1>
    <div class="space">
-      <a href=""><img src="./movie poster/jai bhim.jpg" alt="" height="200px" width="150px"></a>
-      <a href=""><img src="./movie poster/irudhi.jpg" alt="" height="200px" width="150px"></a>
-      <a href=""><img src="./movie poster/pk.jpg" alt="" height="200px" width="150px"></a>
-      <a href=""><img src="./movie poster/hridayam.jpg" alt="" height="200px" width="150px"></a>
-      <a href=""><img src="./movie poster/super 30.jpg" alt="" height="200px" width="150px"></a>
-      <a href=""><img src="./movie poster/vikram.jpg" alt="" height="200px" width="150px"></a>
-      <a href=""><img src="./movie poster/dil.jpg" alt="" height="200px" width="150px"></a>
-     <a href=""><img src="./movie poster/mehandi.jpg" alt="" height="200px" width="150px"></a> 
+      <a href="" class="box"><img src="./movie poster/jai bhim.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"><img src="./movie poster/irudhi.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"><img src="./movie poster/pk.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"><img src="./movie poster/hridayam.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"><img src="./movie poster/super 30.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"><img src="./movie poster/vikram.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"><img src="./movie poster/dil.jpg" alt="" height="200px" width="150px"></a>
+     <a href="" class="box"><img src="./movie poster/mehandi.jpg" alt="" height="200px" width="150px"></a> 
    </div>
    <br>
    <h1>Horror and Thriller Movies</h1>
    <div class="space">
-      <a href=""> <img src="./movie poster/raatchasan.jpg" alt="" height="200px" width="150px"></a>
-      <a href=""> <img src="./movie poster/imaikka.jpg" alt="" height="200px" width="150px"></a>
-      <a href=""> <img src="./movie poster/diary.jpg" alt="" height="200px" width="150px"></a>
-      <a href=""> <img src="./movie poster/dhuruvangal.jpg" alt="" height="200px" width="150px"></a>
-      <a href=""> <img src="./movie poster/dia.jpg" alt="" height="200px" width="150px"></a>
-      <a href=""> <img src="./movie poster/maragadham.jpg" alt="" height="200px" width="150px"></a>
-      <a href=""> <img src="./movie poster/aval.jpg" alt="" height="200px" width="150px"></a>
-      <a href="">  <img src="./movie poster/maayavan.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"> <img src="./movie poster/raatchasan.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"> <img src="./movie poster/imaikka.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"> <img src="./movie poster/diary.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"> <img src="./movie poster/dhuruvangal.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"> <img src="./movie poster/dia.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"> <img src="./movie poster/maragadham.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box"> <img src="./movie poster/aval.jpg" alt="" height="200px" width="150px"></a>
+      <a href="" class="box">  <img src="./movie poster/maayavan.jpg" alt="" height="200px" width="150px"></a>
    </div>
    </div>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
