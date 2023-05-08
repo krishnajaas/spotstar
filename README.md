@@ -1,4 +1,3 @@
-MyStreamingService
 MyStreamingService is a web-based streaming platform that combines the best features of Netflix and Spotify and which is called spotstar. It allows users to stream movies, TV shows, and music all in one place.
 1.Search and browse through a wide selection of movies, TV shows, and music albums
 2.Create playlists and add your favorite movies, TV shows, and music to your playlists
