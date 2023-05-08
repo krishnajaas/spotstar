@@ -10,14 +10,15 @@ Users can create an account, log in, and log out. Passwords are encrypted for se
 
 Sample pictures of project spotstar :
 
-![Screenshot (2)](https://user-images.githubusercontent.com/129191297/236756710-987afa62-f4cd-4cc5-9e5f-8caaf320d5e5.png)
-![Screenshot (3)](https://user-images.githubusercontent.com/129191297/![Screenshot (6)](https://user-images.githubusercontent.com/129191297/236756976-7f3c9605-2162-4fe7-88ad-4250ec445819.png)
-236756918-736c612d-30b9-4c89-a17f-94bc694aca61.png)![Screenshot (5)](https://user-images.githubusercontent.com/129191297/236756962-81537d4b-da81-4a06-b93b-72942f083a60.png)
-![Screenshot (8)](https://user-images.githubusercontent.com/129191297/236757017-39c48b8c-7e9f-4c8e-ac2d-21e8b59158eb.png)
-![Screenshot (10)](https://user-images.githubusercontent.com/129191297/236757047-29018a3d-42b1-4aa2-bc45-6d3e1eb6eb17.png)
-![Screenshot (11)](https://user-images.githubusercontent.com/129191297/236757070-0f42beaf-f617-41d9-87d4-809887ebbac8.png)
-![Screenshot (12)](https://user-images.githubusercontent.com/129191297/236757096-fce31740-6cc4-489b-aead-4f0e993872f7.png)
-![Screenshot (7)](https://user-images.githubusercontent.com/129191297/236756995-484c9f75-e435-49f3-a2df-bcb745bf435f.png)
+![screenshot 1](https://user-images.githubusercontent.com/129191297/236759976-8405bfc6-f0ff-4e40-94e3-db73e7514057.png)
+![Screenshot 2](https://user-images.githubusercontent.com/129191297/236760009-8daf6ff5-af17-48c3-b61b-70a14fdf404e.png)
+![Screenshot 3](https://user-images.githubusercontent.com/129191297/236760042-9b883608-eebb-46ab-9709-153172793eff.png)
+![Screenshot 4](https://user-images.githubusercontent.com/129191297/236760101-47698735-26d0-4670-bd04-ad892a7f1e6b.png)
+![Screenshot 5](https://user-images.githubusercontent.com/129191297/236760150-b88032b6-c808-4065-80d5-7c052b221f05.png)
+![Screenshot 8](https://user-images.githubusercontent.com/129191297/236760185-b22ae665-9f20-4b4d-8c07-77c94fc59456.png)
+![Screenshot 10](https://user-images.githubusercontent.com/129191297/236760211-7833fdad-612d-438c-8d03-e9b35dddf61b.png)
+![Screenshot 11](https://user-images.githubusercontent.com/129191297/236760245-31a042e4-a28b-4cb3-95ba-efc3b3135a4d.png)
+![Screenshot 12](https://user-images.githubusercontent.com/129191297/236760263-794544ea-125a-418e-8d1b-80f7f21d068a.png)
 
 Movie and TV Show Streaming:![Screenshot (4)](https://user-images.githubusercontent.com/129191297/236756938-94e7a876-f263-421d-9797-f52b12c44539.png)
 
